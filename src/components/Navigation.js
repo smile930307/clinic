@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 import tutomena from "../images/tutomena.png";
 import sun from "../images/sun.svg";
 import moon from "../images/moon.svg";
-import kofi from "../../content/thumbnails/kofi.png";
 import ThemeContext from "../context/ThemeContext";
+import mobirena from "../../content/thumbnails/mobirena.png";
 
 export default class Navigation extends Component {
   static contextType = ThemeContext;
@@ -39,7 +39,7 @@ export default class Navigation extends Component {
         <div className="nav-container">
           <div className="brand">
             <Link to="/">
-              <img src={tutomena} className="favicon" alt="مدونة توتومينا" />
+              <img src={mobirena} className="favicon" alt="منصة موبيرينا" />
               <span className="text">منصة موبيرينا</span>
             </Link>
           </div>
@@ -63,16 +63,6 @@ export default class Navigation extends Component {
                 )}
               </button>
             </div>
-            {/* <a
-              className="kofi-button"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://ko-fi.com/taniarascia"
-              aria-label="Buy me a coffee!"
-              title="Buy me a coffee!"
-            >
-              <img src={kofi} alt="Kofi" className="kofi" />
-            </a> */}
           </div>
         </div>
       </nav>
