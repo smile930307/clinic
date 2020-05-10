@@ -1,27 +1,27 @@
-import React from 'react';
+import React from "react";
 
-import addToMailchimp from 'gatsby-plugin-mailchimp';
+import addToMailchimp from "gatsby-plugin-mailchimp";
 
-import './style.scss';
+import "./style.scss";
 
 export default function NewsletterForm() {
-  const [email, setEmail] = React.useState('');
-  const [listFields, setListFields] = React.useState({ name: '' });
-  const [message, setMessage] = React.useState('');
+  const [email, setEmail] = React.useState("");
+  const [listFields, setListFields] = React.useState({ name: "" });
+  const [message, setMessage] = React.useState("");
   const [result, setResult] = React.useState({});
 
   React.useEffect(() => {
-    if (result.result === 'success') {
+    if (result.result === "success") {
       setMessage(
-        'انتهينا تقريبا... نحتاج فقط إلى تأكيد بريدك الإلكتروني، اضغط على الرابط في رسالة البريد الإلكتروني التي أرسلناها إليك للتو.'
+        "انتهينا تقريبا... نحتاج فقط إلى تأكيد بريدك الإلكتروني، اضغط على الرابط في رسالة البريد الإلكتروني التي أرسلناها إليك للتو."
       );
     }
 
-    if (result.result === 'error') {
+    if (result.result === "error") {
       if (email) {
-        setMessage('لقد سبق لك الإشتراك في قائمة توتومينا البريدية.');
+        setMessage("لقد سبق لك الإشتراك في قائمة موبيرينا البريدية.");
       } else {
-        setMessage('البريد الإلكتروني غير سليم.');
+        setMessage("البريد الإلكتروني غير سليم.");
       }
     }
   }, [result.msg]);
@@ -59,9 +59,9 @@ export default function NewsletterForm() {
               type="text"
               value={listFields.name}
               onChange={handleNameChange}
-              placeholder="الإسم الكامل"
+              placeholder="الاسم الكامل"
             />
-            <button className="button">أريد الإشتراك</button>
+            <button className="button">أريد الاشتراك</button>
           </form>
         </div>
       </div>
