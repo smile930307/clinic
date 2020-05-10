@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import tutomena from "../images/tutomena.png";
 import sun from "../images/sun.svg";
 import moon from "../images/moon.svg";
 import ThemeContext from "../context/ThemeContext";

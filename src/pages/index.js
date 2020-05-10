@@ -41,7 +41,7 @@ export default class Index extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={youtubeIcon} alt="حساب توتومينا على يوتيوب" />
+                    <img src={youtubeIcon} alt="قناة موبيرينا على يوتيوب" />
                   </a>
                 </div>
                 <div>

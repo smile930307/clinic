@@ -1,15 +1,15 @@
-import photo_aissa from './avatars/aissa.png';
+import shams from "./avatars/shams.png";
 
 const aissa = {
-  name: 'عيسى محمد علي',
-  photo: photo_aissa,
+  name: "محمد شمس",
+  photo: shams,
   bio:
-    'مغربي من أصول أمازيغية، مطور ويب مستقل متخصص في الواجهات الأمامية، أحب التدوين وإغناء المحتوى التقني للغة الضاد وهذا كان السبب الرئيسي في إنشائي لمدونة توتومينا.',
-  website: '',
+    "مصرى النشأة، مطور ويب مستقل متخصص في الواجهات الأمامية، أحب التدوين وإغناء المحتوى التقني للغة الضاد وهذا كان السبب الرئيسي في إنشائي  لمنصة موبيرينا لمراجعة الهواتف الذكية",
+  website: "",
   social: {
-    facebook: '',
-    twitter: '',
-    github: 'https://github.com/aissa-bouguern'
-  }
+    facebook: "https://www.facebook.com/MOhamEd.shams.MS",
+    twitter: "https://twitter.com/shamsmohamed155",
+    github: "https://github.com/mshams999",
+  },
 };
 export default { aissa };

@@ -1,27 +1,27 @@
-import React, { Component } from 'react';
-import Helmet from 'react-helmet';
-import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import React, { Component } from "react";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import Img from "gatsby-image";
 
-import { DiscussionEmbed } from 'disqus-react';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
+import { DiscussionEmbed } from "disqus-react";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
-import Layout from '../layout';
-import UserInfo from '../components/UserInfo';
-import PostTags from '../components/PostTags';
-import SEO from '../components/SEO';
-import config from '../../data/SiteConfig';
-import { formatDate, editOnGithub } from '../utils/global';
-import { NewsletterForm } from '../shortcodes';
+import Layout from "../layout";
+import UserInfo from "../components/UserInfo";
+import PostTags from "../components/PostTags";
+import SEO from "../components/SEO";
+import config from "../../data/SiteConfig";
+import { formatDate, editOnGithub } from "../utils/global";
+import { NewsletterForm } from "../shortcodes";
 
-import SimilarArticles from '../components/SimilarArticles';
+import SimilarArticles from "../components/SimilarArticles";
 
 export default class PostTemplate extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      error: false
+      error: false,
     };
   }
 
@@ -31,12 +31,12 @@ export default class PostTemplate extends Component {
     const postNode = this.props.data.mdx;
     const post = postNode.frontmatter;
     const popular = postNode.frontmatter.categories.find(
-      category => category === 'Popular'
+      (category) => category === "Popular"
     );
 
     const disqusConfig = {
       shortname: config.gatsby_disqus_name,
-      config: { identifier: slug }
+      config: { identifier: slug },
     };
 
     let thumbnail;
@@ -67,7 +67,7 @@ export default class PostTemplate extends Component {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <article className="single container">
           <header
-            className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}
+            className={`single-header ${!thumbnail ? "no-thumbnail" : ""}`}
           >
             {thumbnail && <Img fixed={post.thumbnail.childImageSharp.fixed} />}
             <div className="flex">
@@ -99,7 +99,7 @@ export default class PostTemplate extends Component {
         </article>
 
         <div className="container">
-          <h3>مواضيع ذات صلة:</h3>
+          <h3>موضوعات ذات صلة :</h3>
           <SimilarArticles
             category={post.categories[0]}
             tags={post.tags}

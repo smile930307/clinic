@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
-import aissa from '../../content/thumbnails/aissa-avatar.png';
-/* import patreon from '../../content/thumbnails/patreon.png';
-import kofi from '../../content/thumbnails/kofi.png'; */
+import React, { Component } from "react";
+import shams from "../../content/images/shams.png";
 
 export default class UserInfo extends Component {
   render() {
@@ -10,35 +8,15 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <div className="flex-avatar">
-              <img className="avatar" src={aissa} alt="عيسى محمد علي" />
+              <img className="avatar" src={shams} alt="محمد شمس" />
             </div>
             <div>
-              <h3 style={{ marginBottom: '1.2rem' }}>عيسى محمد علي</h3>
+              <h3 style={{ marginBottom: "1.2rem" }}>محمد شمس</h3>
               <p>
-                بدأت الإحتراف في مجال برمجيات الويب منذ عام 2010، وأسعى لنقل
-                خبراتي المتواضعة لإخواني العرب من المحيط إلى الخليج، راجيا من
-                الله أن يجعل عملي هذا في ميزان حسناتي.
+                بدأت الإحتراف في مجال برمجيات الويب منذ عام 2017، مهتم بكل مايخص
+                مجال مراجعة الموبايلات واخر اخبار التطبيقات لافادة المسهلك
+                العربى واعلامه بكافة الاخبار التى تخص مجال الهواتف الذكية
               </p>
-
-              {/* <div className="flex">
-                <a
-                  href="https://ko-fi.com/taniarascia"
-                  className="donate-button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={kofi} className="coffee-icon" alt="Coffee icon" />
-                  Buy me a coffee
-                </a>
-                <a
-                  className="patreon-button"
-                  href="https://www.patreon.com/taniarascia"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={patreon} height="50" width="50" /> Become a Patron
-                </a>
-              </div> */}
             </div>
           </div>
         </div>
