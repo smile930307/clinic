@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
-import Helmet from 'react-helmet';
-import { graphql } from 'gatsby';
-import Layout from '../layout';
-import PostListing from '../components/PostListing';
-import SEO from '../components/SEO';
-import config from '../../data/SiteConfig';
+import React, { Component } from "react";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import Layout from "../layout";
+import PostListing from "../components/PostListing";
+import SEO from "../components/SEO";
+import config from "../../data/SiteConfig";
 
 export default class BlogPage extends Component {
   state = {
-    searchTerm: '',
+    searchTerm: "",
     currentCategories: [],
     posts: this.props.data.posts.edges,
-    filteredPosts: this.props.data.posts.edges
+    filteredPosts: this.props.data.posts.edges,
   };
 
-  handleChange = async event => {
+  handleChange = async (event) => {
     const { name, value } = event.target;
 
     await this.setState({ [name]: value });
@@ -25,7 +25,7 @@ export default class BlogPage extends Component {
   filterPosts = () => {
     const { posts, searchTerm, currentCategories } = this.state;
 
-    let filteredPosts = posts.filter(post =>
+    let filteredPosts = posts.filter((post) =>
       post.node.frontmatter.title
         .toLowerCase()
         .includes(searchTerm.toLowerCase())
@@ -33,9 +33,9 @@ export default class BlogPage extends Component {
 
     if (currentCategories.length > 0) {
       filteredPosts = filteredPosts.filter(
-        post =>
+        (post) =>
           post.node.frontmatter.categories &&
-          currentCategories.every(cat =>
+          currentCategories.every((cat) =>
             post.node.frontmatter.categories.includes(cat)
           )
       );
@@ -44,18 +44,18 @@ export default class BlogPage extends Component {
     this.setState({ filteredPosts });
   };
 
-  updateCategories = category => {
+  updateCategories = (category) => {
     const { currentCategories } = this.state;
 
     if (!currentCategories.includes(category)) {
-      this.setState(prevState => ({
-        currentCategories: [...prevState.currentCategories, category]
+      this.setState((prevState) => ({
+        currentCategories: [...prevState.currentCategories, category],
       }));
     } else {
-      this.setState(prevState => ({
+      this.setState((prevState) => ({
         currentCategories: prevState.currentCategories.filter(
-          cat => category !== cat
-        )
+          (cat) => category !== cat
+        ),
       }));
     }
   };
@@ -67,17 +67,17 @@ export default class BlogPage extends Component {
 
     return (
       <Layout>
-        <Helmet title={`منشورات – ${config.siteTitle}`} />
+        <Helmet title={`اخر المراجعات – ${config.siteTitle}`} />
         <SEO />
         <div className="container">
-          <h1>منشورات</h1>
+          <h1>اخر المراجعات</h1>
           <div className="category-container">
-            {categories.map(category => {
+            {categories.map((category) => {
               const active = currentCategories.includes(category.fieldValue);
 
               return (
                 <div
-                  className={`category-filter ${active ? 'active' : ''}`}
+                  className={`category-filter ${active ? "active" : ""}`}
                   key={category.fieldValue}
                   onClick={async () => {
                     await this.updateCategories(category.fieldValue);
