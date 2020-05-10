@@ -8,7 +8,7 @@ import PostListing from "../components/PostListing";
 /* import SimpleListing from '../components/SimpleListing'; */
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
-import tutomena from "../../content/thumbnails/tutomena.png";
+import mobirena from "../../content/thumbnails/mobirena.png";
 import youtubeIcon from "../../content/thumbnails/youtube-32.png";
 import facebookIcon from "../../content/thumbnails/facebook-32.png";
 /* import youtubeIcon from '../../content/thumbnails/youtube-32.png'; */
@@ -67,19 +67,19 @@ export default class Index extends Component {
             </div>
             <div className="newsletter-section">
               <img
-                src={tutomena}
+                src={mobirena}
                 className="newsletter-avatar"
-                alt="عيسى محمد علي"
+                alt="موبيرينا"
               />
               <div>
                 <h3>اتصل بالجديد دائما</h3>
                 <p>
-                  اشترك في قائمة توتومينا البريدية للتوصل بآخر الدروس والمقالات
-                  الحصرية، وكذلك عروض العمل من شركائنا الذين يثقون في جمهور
-                  مدونة توتومينا.
+                  اشترك في قائمة موبيرينا البريدية لتتعرف على اخر اخبار
+                  الموبايلات من امكانيات, مميزات, عيوب مع عرض لادق الأسعار
+                  المتوقعة فى الاسواق, ومتابعة لاخر اخبار التطبيقات.
                 </p>
                 <a className="button" href="/newsletter">
-                  أريد الإشتراك
+                  اشترك الان
                 </a>
               </div>
             </div>
