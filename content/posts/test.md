@@ -1,26 +1,22 @@
 ---
-title: Test one
-tags: Test
-categories: Test
-excerpt: This is a test
-status: Draft
-date: '2020-06-17'
-
+title: 'بسم الله الرحمن الرحيم'
+date: 2020-12-02
+slug: 'blogging/this-is-a-test'
+template: 'post'
+categories:
+  - test
+tags:
+  - Gatsby.js
+  - React.js
+thumbnail: '../thumbnails/gatsby.png'
 ---
 
-<hr>
-<p>title: ‘بسم الله الرحمن الرحيم’<br>
-date: 2020-12-02<br>
-slug: ‘blogging/this-is-a-test’<br>
-template: ‘post’<br>
-categories:</p>
-<ul>
-<li>test<br>
-tags:</li>
-<li>Gatsby.js</li>
-<li>React.js<br>
-thumbnail: ‘…/thumbnails/gatsby.png’</li>
-</ul>
-<hr>
-<p>This is a test file</p>
 
+This is a test file
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3Qgb25lXG50YWdzOi
+BUZXN0XG5jYXRlZ29yaWVzOiBUZXN0XG5leGNlcnB0OiBUaGlz
+IGlzIGEgdGVzdFxuc3RhdHVzOiBEcmFmdFxuZGF0ZTogJzIwMj
+AtMDYtMTcnXG4iLCJoaXN0b3J5IjpbLTE1MTYzMDAwMzhdfQ==
+
+-->
