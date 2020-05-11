@@ -1,9 +1,9 @@
 {
-  "name": "tutomena.com",
-  "description": "مدونة توتومينا، ملتقى المطورين العرب.",
+  "name": "mobirena.com",
+  "description": "منصة موبيرينا, أكبر موقع متخصص لمراجعة الموبايلات ومعرفة إمكانياتها",
   "version": "1.0.0",
-  "author": "Aissa BOUGUERN <aissa.bouguern@gmail.com>",
-  "repository": "git@github.com:aissa-bouguern/tutomena.com",
+  "author": "Mohamed shams <shamsmohamed155@gmail.com>",
+  "repository": "https://github.com/mshams999/mobirena-gatsby",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
@@ -69,7 +69,7 @@
     "write-good": "^1.0.2"
   },
   "keywords": [
-    "tutomena",
+    "موبيرينا",
     "development",
     "dev",
     "tutorials",
