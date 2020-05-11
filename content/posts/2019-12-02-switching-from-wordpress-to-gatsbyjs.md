@@ -1,5 +1,5 @@
 ---
-title: 'لهذه الأسباب نقلت مدونة توتومينا من ووردبريس إلى Gatsby.js'
+title: ''
 date: 2019-12-02
 slug: 'blogging/switching-from-wordpress-to-gatsbyjs'
 template: 'post'
@@ -130,5 +130,5 @@ thumbnail: '../thumbnails/gatsby.png'
 
 أنا دائما **رهن الإشارة** في حال كانت لديكم أسئلة حول هذا الموضوع 💌 💚
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2OTQ5Mjc2XX0=
+eyJoaXN0b3J5IjpbLTEwNjk4ODE0NTVdfQ==
 -->
