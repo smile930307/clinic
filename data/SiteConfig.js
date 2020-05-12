@@ -11,7 +11,7 @@ const config = {
   siteDescription:
     "موقع موبيرينا هو أكبر موقع متخصص لمراجعة الموبايلات ومعرفة إمكانياتها، مميزات وعيوب كل هاتف وكذلك أدق الأسعار فى سوق الهواتف الذكية.",
   siteRss: "/rss.xml",
-  googleAnalyticsID: "UA-60278591-1",
+  googleAnalyticsID: "UA-135262164-5",
   postDefaultCategoryID: "تقنية",
   userName: "شمس",
   userEmail: "shamsmohamed155@gmail.com",
