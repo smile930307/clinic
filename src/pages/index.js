@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
+/*
+ ** making some edits
+ */
 /* import GitHubButton from 'react-github-btn'; */
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
