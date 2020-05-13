@@ -19,12 +19,12 @@ const config = {
   gatsby_disqus_name: "mobirena",
   menuLinks: [
     {
-      name: "عن موبيرينا ؟",
-      link: "/about-us/",
-    },
-    {
       name: "مراجعات الموبايلات",
       link: "/blog/",
+    },
+    {
+      name: "عن موبيرينا ؟",
+      link: "/about-us/",
     },
     {
       name: "اتصل بنا",
