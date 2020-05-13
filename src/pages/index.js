@@ -54,15 +54,6 @@ export default class Index extends Component {
                     <img src={facebookIcon} alt="حساب موبيرينا على فيسبوك" />
                   </a>
                 </div>
-                {/* <div>
-                  <a
-                    href="https://www.youtube.com/channel/UCN_OqOSbjFFH3Tkr8FbquTA"
-                    title="قناة توتومينا على يوتيوب"
-                    target="_blank"
-                  >
-                    <img src={youtubeIcon} alt="قناة توتومينا على يوتيوب" />
-                  </a>
-                </div> */}
               </div>
             </div>
             <div className="newsletter-section">
