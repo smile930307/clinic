@@ -39,7 +39,7 @@ export default class Navigation extends Component {
           <div className="brand">
             <Link to="/">
               <img src={mobirena} className="favicon" alt="منصة موبيرينا" />
-              <span className="text">منصة موبيرينا</span>
+              <span className="text">د/ شمس</span>
             </Link>
           </div>
           <div className="links">

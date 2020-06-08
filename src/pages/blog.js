@@ -67,10 +67,10 @@ export default class BlogPage extends Component {
 
     return (
       <Layout>
-        <Helmet title={`اخر المراجعات – ${config.siteTitle}`} />
+        <Helmet title={`اهم التدوينات – ${config.siteTitle}`} />
         <SEO />
         <div className="container">
-          <h1>اخر المراجعات</h1>
+          <h1>اهم التدوينات</h1>
           <div className="category-container">
             {categories.map((category) => {
               const active = currentCategories.includes(category.fieldValue);

@@ -1,7 +1,7 @@
 const config = {
-  siteTitle: "موبيرينا",
-  siteTitleShort: "موبيرينا",
-  siteTitleAlt: "موبيرينا",
+  siteTitle: "د/ شمس",
+  siteTitleShort: "د/ شمس",
+  siteTitleAlt: "د/ شمس",
   siteLogo: "/logos/mobirena.png",
   siteUrl: "https://mobirena-gatsby.netlify.app/",
   repo: "https://github.com/mshams999/mobirena-gatsby",
@@ -9,21 +9,21 @@ const config = {
   dateFromFormat: "YYYY-MM-DD",
   dateFormat: "MMMM Do, YYYY",
   siteDescription:
-    "موقع موبيرينا هو أكبر موقع متخصص لمراجعة الموبايلات ومعرفة إمكانياتها، مميزات وعيوب كل هاتف وكذلك أدق الأسعار فى سوق الهواتف الذكية.",
+    "هنا يمكنك الاطلاع على ادق المعلومات الطبية, احدث بروتوكولات العلاج وكذلك اهم النصائح التى تقدمها عيادة د/ شمس لتتمتع بصحة أفضل. شفاكم الله وعافاكم",
   siteRss: "/rss.xml",
   googleAnalyticsID: "UA-135262164-5",
-  postDefaultCategoryID: "تقنية",
+  postDefaultCategoryID: "طب",
   userName: "شمس",
   userEmail: "shamsmohamed155@gmail.com",
   userTwitter: "tutomena",
   gatsby_disqus_name: "mobirena",
   menuLinks: [
     {
-      name: "مراجعات الموبايلات",
+      name: "اهم التدوينات",
       link: "/blog/",
     },
     {
-      name: "عن موبيرينا ؟",
+      name: "عن د/ شمس",
       link: "/about-us/",
     },
     {

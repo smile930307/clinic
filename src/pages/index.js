@@ -31,11 +31,11 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>موبيرينا</h1>
+              <h1>الموقع الرسمى لـ د/ شمس</h1>
               <p>
-                موقع موبيرينا هو أكبر موقع متخصص لمراجعة الموبايلات ومعرفة
-                إمكانياتها، مميزات وعيوب كل هاتف وكذلك أدق الأسعار فى سوق
-                الهواتف الذكية.
+                هنا يمكنك الاطلاع على ادق المعلومات الطبية, احدث بروتوكولات
+                العلاج وكذلك اهم النصائح التى تقدمها عيادة د/ شمس لتتمتع بصحة
+                أفضل. شفاكم الله وعافاكم
               </p>
               <div className="social-buttons">
                 <div>
@@ -69,9 +69,9 @@ export default class Index extends Component {
               <div>
                 <h3>اتصل بالجديد دائما</h3>
                 <p>
-                  اشترك في قائمة موبيرينا البريدية لتتعرف على اخر اخبار
-                  الموبايلات من امكانيات, مميزات, عيوب مع عرض لادق الأسعار
-                  المتوقعة فى الاسواق, ومتابعة لاخر اخبار التطبيقات.
+                  اشترك في قائمة د/ شمس البريدية لتتمكن من البقاء على اتصال
+                  دائم, وكذلك لمتابعة كل جديد يتم نشره من معلومات طبية, مستحضرات
+                  دوائية, طرق علاجية وكذلك متابعة دورية مباشرة لحالتك.
                 </p>
                 <a className="button" href="/newsletter">
                   اشترك الان
@@ -84,7 +84,7 @@ export default class Index extends Component {
         <div className="container front-page">
           <section className="section">
             <h2>
-              احدث الموبايلات
+              احدث التدوينات
               <Link to="/blog" className="view-all">
                 شاهد الكل
               </Link>
@@ -94,7 +94,7 @@ export default class Index extends Component {
 
           <section className="section">
             <h2>
-              الموبايلات الأكثر شعبية
+              التدوينات الأكثر شعبية
               <Link to="/categories/popular" className="view-all">
                 شاهد الكل
               </Link>
