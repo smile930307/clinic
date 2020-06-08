@@ -16,7 +16,7 @@ const config = {
   userName: "شمس",
   userEmail: "shamsmohamed155@gmail.com",
   userTwitter: "tutomena",
-  gatsby_disqus_name: "shamsclinic",
+  gatsby_disqus_name: "shamsclinic-1",
   menuLinks: [
     {
       name: "اهم التدوينات",
