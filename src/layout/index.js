@@ -37,8 +37,8 @@ export default class MainLayout extends Component {
           {children}
           <div>
             <MessengerCustomerChat
-              pageId="<100330938395339>"
-              appId="<1783693495105633>"
+              pageId="100330938395339"
+              appId="1783693495105633"
             />
           </div>
         </main>
