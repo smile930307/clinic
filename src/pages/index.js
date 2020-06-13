@@ -13,9 +13,11 @@ import PostListing from "../components/PostListing";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 import mobirena from "../../content/thumbnails/mobirena.png";
-import youtubeIcon from "../../content/thumbnails/youtube-32.png";
 import facebookIcon from "../../content/thumbnails/facebook-32.png";
-/* import youtubeIcon from '../../content/thumbnails/youtube-32.png'; */
+import twitterIcon from "../../content/thumbnails/twitter-32.png";
+import youtubeIcon from "../../content/thumbnails/youtube-32.png";
+import pinterestIcon from "../../content/thumbnails/pinterest-32.png";
+import mailtoIcon from "../../content/thumbnails/mailto-32.png";
 
 export default class Index extends Component {
   render() {
@@ -26,8 +28,9 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – تقنيات البرمجة وتطوير الويب`} />
+        <Helmet title={`${config.siteTitle} – يد الله ترعاكم`} />
         <SEO />
+
         <div className="container">
           <div className="lead">
             <div className="elevator">
@@ -37,25 +40,60 @@ export default class Index extends Component {
                 العلاج وكذلك اهم النصائح التى تقدمها عيادة د/ شمس لتتمتع بصحة
                 أفضل. شفاكم الله وعافاكم
               </p>
+
               <div className="social-buttons">
                 <div>
                   <a
-                    href="https://www.youtube.com/channel/UClzuWE2q_PB1XO9_KDO-uXw"
-                    title="حساب موبيرينا على يوتيوب"
+                    href="https://www.facebook.com/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9-%D8%AF%D8%B4%D9%85%D8%B3-100330938395339/"
+                    title="حساب د/شمس على فيسبوك"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={youtubeIcon} alt="قناة موبيرينا على يوتيوب" />
+                    <img src={facebookIcon} alt="حساب د/شمس على فيسبوك" />
                   </a>
                 </div>
+
                 <div>
                   <a
-                    href="https://www.facebook.com/mobirena"
-                    title="حساب موبيرينا على فيسبوك"
+                    href="https://twitter.com/clinics_shams"
+                    title="حساب د/شمس على تويتر"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={facebookIcon} alt="حساب موبيرينا على فيسبوك" />
+                    <img src={twitterIcon} alt="حساب د/شمس على تويتر" />
+                  </a>
+                </div>
+
+                <div>
+                  <a
+                    href="https://www.youtube.com/channel/UCikX-7rcNKEIo6oaqSGcvYg?view_as=subscriber"
+                    title="حساب د/شمس على يوتيوب"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={youtubeIcon} alt="حساب د/شمس على يوتيوب" />
+                  </a>
+                </div>
+
+                <div>
+                  <a
+                    href="https://www.pinterest.com/dr_shamsclinic/boards/"
+                    title="حساب د/شمس على pinterest"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={pinterestIcon} alt="حساب د/شمس على pinterest" />
+                  </a>
+                </div>
+
+                <div>
+                  <a
+                    href="mailto:shamsmohamed155@gmail.com"
+                    title="ايميل د/شمس على gmail"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={mailtoIcon} alt="ايميل د/شمس على gmail" />
                   </a>
                 </div>
               </div>
