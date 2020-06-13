@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import sun from "../images/sun.svg";
 import moon from "../images/moon.svg";
 import ThemeContext from "../context/ThemeContext";
-import mobirena from "../../content/thumbnails/mobirena.png";
+import shamsclinic from "../../content/thumbnails/logo-shamsclinic.png";
 
 export default class Navigation extends Component {
   static contextType = ThemeContext;
@@ -38,8 +38,7 @@ export default class Navigation extends Component {
         <div className="nav-container">
           <div className="brand">
             <Link to="/">
-              <img src={mobirena} className="favicon" alt="منصة موبيرينا" />
-              <span className="text">د/ شمس</span>
+              <img src={shamsclinic} className="favicon" alt="د/شمس" />
             </Link>
           </div>
           <div className="links">

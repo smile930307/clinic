@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://gatsbyjs.org">
+  <a href="https://shamsclinic.netlify.app">
     <img alt="عيادة د/شمس" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>

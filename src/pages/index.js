@@ -12,7 +12,7 @@ import PostListing from "../components/PostListing";
 /* import SimpleListing from '../components/SimpleListing'; */
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
-import mobirena from "../../content/thumbnails/mobirena.png";
+import emailList from "../../content/thumbnails/email-list.jpg";
 import facebookIcon from "../../content/thumbnails/facebook-32.png";
 import twitterIcon from "../../content/thumbnails/twitter-32.png";
 import youtubeIcon from "../../content/thumbnails/youtube-32.png";
@@ -99,11 +99,7 @@ export default class Index extends Component {
               </div>
             </div>
             <div className="newsletter-section">
-              <img
-                src={mobirena}
-                className="newsletter-avatar"
-                alt="موبيرينا"
-              />
+              <img src={emailList} className="newsletter-avatar" alt="د/شمس" />
               <div>
                 <h3>اتصل بالجديد دائما</h3>
                 <p>

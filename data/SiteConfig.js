@@ -1,15 +1,15 @@
 const config = {
-  siteTitle: "د/ شمس",
-  siteTitleShort: "د/ شمس",
-  siteTitleAlt: "د/ شمس",
-  siteLogo: "/logos/mobirena.png",
-  siteUrl: "https://mobirena-gatsby.netlify.app/",
+  siteTitle: "د/شمس",
+  siteTitleShort: "د/شمس",
+  siteTitleAlt: "د/شمس",
+  siteLogo: "/logos/logo-shamsclinic.png",
+  siteUrl: "https://shamsclinic.netlify.app/",
   repo: "https://github.com/mshams999/mobirena-gatsby",
   pathPrefix: "",
   dateFromFormat: "YYYY-MM-DD",
   dateFormat: "MMMM Do, YYYY",
   siteDescription:
-    "هنا يمكنك الاطلاع على ادق المعلومات الطبية, احدث بروتوكولات العلاج وكذلك اهم النصائح التى تقدمها عيادة د/ شمس لتتمتع بصحة أفضل. شفاكم الله وعافاكم",
+    "هنا يمكنك الاطلاع على ادق المعلومات الطبية, احدث بروتوكولات العلاج وكذلك اهم النصائح التى تقدمها عيادة د/شمس لتتمتع بصحة أفضل. شفاكم الله وعافاكم",
   siteRss: "/rss.xml",
   googleAnalyticsID: "UA-135262164-5",
   postDefaultCategoryID: "طب",
@@ -23,7 +23,7 @@ const config = {
       link: "/blog/",
     },
     {
-      name: "عن د/ شمس",
+      name: "عن د/شمس",
       link: "/about-us/",
     },
     {

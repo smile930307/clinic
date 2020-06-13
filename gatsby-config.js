@@ -13,7 +13,7 @@ module.exports = {
       image_url: `${urljoin(
         config.siteUrl,
         config.pathPrefix
-      )}/logos/logo-48.png`,
+      )}/logos/logo-shamsclinic.png`,
     },
   },
   plugins: [
