@@ -6,7 +6,7 @@ template: "post"
 categories:
   - test
 tags:
-  - Gatsby.js
+  - 
   - React.js
 thumbnail: "../thumbnails/gatsby.png"
 ---
@@ -17,6 +17,6 @@ This is a test file
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3Qgb25lXG50YWdzOi
 BUZXN0XG5jYXRlZ29yaWVzOiBUZXN0XG5leGNlcnB0OiBUaGlz
 IGlzIGEgdGVzdFxuc3RhdHVzOiBEcmFmdFxuZGF0ZTogJzIwMj
-AtMDYtMTcnXG4iLCJoaXN0b3J5IjpbMTY2MDM5NzIyOCwtMTUx
+AtMDYtMTcnXG4iLCJoaXN0b3J5IjpbLTI2NjU2MDI5OSwtMTUx
 NjMwMDAzOF19
 -->
