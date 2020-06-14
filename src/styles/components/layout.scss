@@ -161,8 +161,8 @@
 
 .single {
   .gatsby-image-wrapper {
-    height: 50px !important;
-    width: 50px !important;
+    height: 100px !important;
+    width: 100px !important;
   }
 }
 
@@ -219,6 +219,7 @@
     display: block;
 
     .each {
+      /*
       display: grid;
       align-items: center;
       grid-template-columns: 50px 1fr 70px;
@@ -226,7 +227,13 @@
       margin: 0;
       border: 2px solid transparent;
       border-bottom: 2px solid $light;
-
+      */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 20px;
+      text-align: center;
       .date {
         margin: 0;
         font-size: 0.9rem;
@@ -248,24 +255,31 @@
     line-height: 1.3;
     border-bottom: none;
     margin: 0;
-    padding: 0;
+    padding: 5px 0;
   }
 
   .gatsby-image-wrapper {
     margin-top: 0;
-    height: 30px !important;
-    width: 30px !important;
+    height: 100px !important;
+    width: 100px !important;
   }
 
   &.simple {
     a {
       .each {
+        /*
         grid-template-columns: 50px 2fr auto;
         align-items: center;
         padding: 0.5rem 0;
         margin: 0;
         border: 2px solid transparent;
-
+        */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
         &:hover {
           background: white;
         }
@@ -274,8 +288,8 @@
 
     .gatsby-image-wrapper {
       margin-top: 0;
-      height: 30px !important;
-      width: 30px !important;
+      height: 100px !important;
+      width: 100px !important;
     }
 
     h2 {
@@ -304,10 +318,18 @@
 
     a {
       .each {
+        /*
         grid-template-columns: 80px 1fr 90px;
         align-items: start;
         padding: 1rem 2rem;
         margin: 0 -2rem;
+        */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
 
         &:hover {
           border-radius: $border-radius;
@@ -338,8 +360,8 @@
 
         .gatsby-image-wrapper {
           margin-top: 0;
-          height: 50px !important;
-          width: 50px !important;
+          height: 100px !important;
+          width: 100px !important;
         }
       }
     }
@@ -366,8 +388,8 @@
           }
 
           .gatsby-image-wrapper {
-            height: 30px !important;
-            width: 30px !important;
+            height: 100px !important;
+            width: 100px !important;
           }
         }
       }
@@ -389,7 +411,7 @@ h2.publication-company {
 .alert {
   align-self: center;
   justify-self: flex-end;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 
   .new {
     display: inline-block;
