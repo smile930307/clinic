@@ -14,7 +14,7 @@ thumbnail: "../thumbnails/gatsby.png"
 بسم الله الرحمن الرحيم
 الصدفية
 
-![Waterfall problem](../images/300px-Psoriasis_on_back1.jpg")
+![شكل الصدفية](../images/300px-Psoriasis_on_back1.jpg)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6INiu2YXYsyDYt9ix2YIg2K
 fYs9in2LPZitipINmI2YHYudin2YTYqSDZhNi52YTYp9isINin
@@ -23,6 +23,6 @@ iv2YrYqSwg2KfZh9mFINi32LHZgiDYp9mE2LnZhNin2KwnXG5j
 YXRlZ29yaWVzOiDYrNmE2K/ZitipXG5mZWF0dXJlZEltYWdlOi
 Bjb250ZW50L2ltYWdlcy8zMDBweC1Qc29yaWFzaXNfb25fYmFj
 azEuanBnXG5kYXRlOiAnMjAyMC0wNi0xNSdcbiIsImhpc3Rvcn
-kiOlsxMDI0MzI0OTkzLC0xNzE5MDQ4MTEwLC05NTE4NDcyMSwx
-NDYxOTAwOTgyLDEwMDk0NDc1MjddfQ==
+kiOls1MDgzNjM4MTYsLTE3MTkwNDgxMTAsLTk1MTg0NzIxLDE0
+NjE5MDA5ODIsMTAwOTQ0NzUyN119
 -->
