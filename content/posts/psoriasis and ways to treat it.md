@@ -12,7 +12,6 @@ thumbnail: "../thumbnails/gatsby.png"
 ---
 
 بسم الله الرحمن الرحيم
-الصدفية
 
 ![شكل الصدفية](../images/300px-Psoriasis_on_back1.jpg)
 <!--stackedit_data:
@@ -23,6 +22,6 @@ iv2YrYqSwg2KfZh9mFINi32LHZgiDYp9mE2LnZhNin2KwnXG5j
 YXRlZ29yaWVzOiDYrNmE2K/ZitipXG5mZWF0dXJlZEltYWdlOi
 Bjb250ZW50L2ltYWdlcy8zMDBweC1Qc29yaWFzaXNfb25fYmFj
 azEuanBnXG5kYXRlOiAnMjAyMC0wNi0xNSdcbiIsImhpc3Rvcn
-kiOls1MDgzNjM4MTYsLTE3MTkwNDgxMTAsLTk1MTg0NzIxLDE0
-NjE5MDA5ODIsMTAwOTQ0NzUyN119
+kiOlsxMDMzMTMxMjcsNTA4MzYzODE2LC0xNzE5MDQ4MTEwLC05
+NTE4NDcyMSwxNDYxOTAwOTgyLDEwMDk0NDc1MjddfQ==
 -->
