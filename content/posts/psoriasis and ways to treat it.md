@@ -1,5 +1,5 @@
 ---
-title: خمس طرق اساسية وفعالة لعلاج الصدفيةا"
+title: "خمس طرق اساسية وفعالة لعلاج الصدفية"
 date: 2020-06-15
 slug: "blogging/posriasis-and-ways-to-treat-it"
 template: "post"
@@ -21,5 +21,6 @@ iv2YrYqSwg2KfZh9mFINi32LHZgiDYp9mE2LnZhNin2KwnXG5j
 YXRlZ29yaWVzOiDYrNmE2K/ZitipXG5mZWF0dXJlZEltYWdlOi
 Bjb250ZW50L2ltYWdlcy8zMDBweC1Qc29yaWFzaXNfb25fYmFj
 azEuanBnXG5kYXRlOiAnMjAyMC0wNi0xNSdcbiIsImhpc3Rvcn
-kiOlsxNDYxOTAwOTgyLDEwMDk0NDc1MjddfQ==
+kiOlstOTUxODQ3MjEsMTQ2MTkwMDk4MiwxMDA5NDQ3NTI3XX0=
+
 -->
