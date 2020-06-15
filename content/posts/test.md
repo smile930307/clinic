@@ -192,19 +192,11 @@ thumbnail: "../thumbnails/gatsby.png"
 5.  **الأطعمة المقلية..** يمكن أن تزيد من الالتهاب.
 
   
-اقرأ أيضاً:  
-[الأكزيما.. هل هناك بديل للستيرويدات؟  
-](https://www.sehatok.com/home/GoToPage/deb06654-5466-4fb4-bfcc-71f16a7db1bc/d66606d4-aea8-46f7-b105-c8e6a7eb64ac)[دواء جديد لعلاج حالات "الإكزيما" الشديدة  
-](https://www.sehatok.com/home/GoToPage/6183795e-4b5d-4404-90d7-6f60198f7fd2/f93fc70f-7432-4f78-b693-dce53e264237)[الخلايا الجذعية.. نتائج واعدة لعلاج الأكزيما](https://www.sehatok.com/home/GoToPage/6183795e-4b5d-4404-90d7-6f60198f7fd2/e5960172-7c8d-4483-a862-051ee0fe1e2c)[  
-الوقاية والعلاج لطفح الحفاض](https://www.sehatok.com/home/GoToPage/345d6f4b-cddd-434e-b8b1-6a5aa01fc9cf/907e46a8-d9d6-4aca-b580-386b38e1fcb5)[  
-حساسية الغذاء .. المسببات وعوامل الخطورة](https://www.sehatok.com/home/GoToPage/74a27af2-7945-4377-a3bd-0f7d693211d4/b627847e-f720-456a-9dcb-3b3f8578750c)  
-[حساسية الجلد مزمنة ولا تستجيب للعلاج](https://www.sehatok.com/home/GoToPage/deb06654-5466-4fb4-bfcc-71f16a7db1bc/7b752b74-ac1d-4c98-bc2b-0cbcdf649e57)
-
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3Qgb25lXG50YWdzOi
 BUZXN0XG5jYXRlZ29yaWVzOiBUZXN0XG5leGNlcnB0OiBUaGlz
 IGlzIGEgdGVzdFxuc3RhdHVzOiBEcmFmdFxuZGF0ZTogJzIwMj
-AtMDYtMTcnXG4iLCJoaXN0b3J5IjpbMTIwMDUyMDM4MiwtOTQx
-ODg3Njc4LC0xNTE2MzAwMDM4XX0=
+AtMDYtMTcnXG4iLCJoaXN0b3J5IjpbMTc2Mjk5MjYzLC05NDE4
+ODc2NzgsLTE1MTYzMDAwMzhdfQ==
 -->
