@@ -14,8 +14,7 @@ thumbnail: "../thumbnails/gatsby.png"
 بسم الله الرحمن الرحيم
 الصدفية
 
-![الصدفية](content/images/300px-Psoriasis_on_back1.jpg)
-![الصدفية ](https://github.com/mshams999/mobirena-gatsby/blob/master/content/images/300px-Psoriasis_on_back1.jpg)
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6INiu2YXYsyDYt9ix2YIg2K
 fYs9in2LPZitipINmI2YHYudin2YTYqSDZhNi52YTYp9isINin
@@ -24,6 +23,6 @@ iv2YrYqSwg2KfZh9mFINi32LHZgiDYp9mE2LnZhNin2KwnXG5j
 YXRlZ29yaWVzOiDYrNmE2K/ZitipXG5mZWF0dXJlZEltYWdlOi
 Bjb250ZW50L2ltYWdlcy8zMDBweC1Qc29yaWFzaXNfb25fYmFj
 azEuanBnXG5kYXRlOiAnMjAyMC0wNi0xNSdcbiIsImhpc3Rvcn
-kiOlstMTcxOTA0ODExMCwtOTUxODQ3MjEsMTQ2MTkwMDk4Miwx
-MDA5NDQ3NTI3XX0=
+kiOlsyMTA2MjU3OTMxLC0xNzE5MDQ4MTEwLC05NTE4NDcyMSwx
+NDYxOTAwOTgyLDEwMDk0NDc1MjddfQ==
 -->
