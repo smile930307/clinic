@@ -1,3 +1,16 @@
+---
+title: خمس طرق اساسية وفعالة لعلاج الصدفيةا"
+date: 2020-06-15
+slug: "blogging/posriasis-and-ways-to-treat-it"
+template: "post"
+categories:
+  - جلدية
+tags:
+  - جلدية
+  - صدفية
+thumbnail: "../thumbnails/gatsby.png"
+---
+
 بسم الله الرحمن الرحيم
 الصدفية
 <!--stackedit_data:
@@ -8,5 +21,5 @@ iv2YrYqSwg2KfZh9mFINi32LHZgiDYp9mE2LnZhNin2KwnXG5j
 YXRlZ29yaWVzOiDYrNmE2K/ZitipXG5mZWF0dXJlZEltYWdlOi
 Bjb250ZW50L2ltYWdlcy8zMDBweC1Qc29yaWFzaXNfb25fYmFj
 azEuanBnXG5kYXRlOiAnMjAyMC0wNi0xNSdcbiIsImhpc3Rvcn
-kiOlsxMDA5NDQ3NTI3XX0=
+kiOlsxNDYxOTAwOTgyLDEwMDk0NDc1MjddfQ==
 -->
