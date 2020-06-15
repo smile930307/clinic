@@ -167,13 +167,14 @@ thumbnail: "../thumbnails/gatsby.png"
 توفر [بذور الشيا](https://www.sehatok.com/home/GoToPage/74a27af2-7945-4377-a3bd-0f7d693211d4/0be995b4-ce4c-4c78-a156-b8d053b0e8ee)  عنصر الزنك، وهو أمر ضروري لالتئام الجروح وعمليات أيض الأحماض الدهنية.  
   
 
-### 3) الأطعمة الغنية بالبروبيوتيك
+ 
+
+## 3) الأطعمة الغنية بالبروبيوتيك
 
 من شأن  [الأطعمة الغنية بالبروبيوتيك](https://www.sehatok.com/home/GoToPage/74a27af2-7945-4377-a3bd-0f7d693211d4/ad284430-06af-4f16-a068-27a2a92f9ed6)، مثل حليب الماعز، أن تدعم الأمعاء والصحة المناعية وتحسين أسباب الإكزيما.  
 
 ###   
 4) الأطعمة الغنية بالألياف
-
 يمكن أن يدفع الإمساك جسمك للبحث عن طرق أخرى لطرد السموم، ويمكن أن يصبح الجلد واحدا من الطرق التي يتم فيها طرد السموم.  
 يجب تناول [حصة يومية من الألياف](https://www.sehatok.com/home/GoToPage/74a27af2-7945-4377-a3bd-0f7d693211d4/55e9346f-7f1c-4c04-bf02-9009acda8e48)  لا تقل عن 30 غراما، كالخضار والفواكه والمكسرات والبذور والبقوليات.  
 
@@ -197,6 +198,6 @@ thumbnail: "../thumbnails/gatsby.png"
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3Qgb25lXG50YWdzOi
 BUZXN0XG5jYXRlZ29yaWVzOiBUZXN0XG5leGNlcnB0OiBUaGlz
 IGlzIGEgdGVzdFxuc3RhdHVzOiBEcmFmdFxuZGF0ZTogJzIwMj
-AtMDYtMTcnXG4iLCJoaXN0b3J5IjpbMTc2Mjk5MjYzLC05NDE4
-ODc2NzgsLTE1MTYzMDAwMzhdfQ==
+AtMDYtMTcnXG4iLCJoaXN0b3J5IjpbLTI0MDk1OTkyMiwxNzYy
+OTkyNjMsLTk0MTg4NzY3OCwtMTUxNjMwMDAzOF19
 -->
