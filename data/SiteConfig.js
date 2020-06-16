@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: "د/شمس",
   siteTitleAlt: "د/شمس",
   siteLogo: "/logos/logo-shamsclinic.png",
-  siteUrl: "https://shamsclinic.netlify.app/",
+  siteUrl: "https://www.shamsclinics.com/",
   repo: "https://github.com/mshams999/mobirena-gatsby",
   pathPrefix: "",
   dateFromFormat: "YYYY-MM-DD",
