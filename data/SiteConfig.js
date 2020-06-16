@@ -15,7 +15,7 @@ const config = {
   postDefaultCategoryID: "طب",
   userName: "شمس",
   userEmail: "shamsmohamed155@gmail.com",
-  userTwitter: "tutomena",
+  userTwitter: "clinics_shams",
   gatsby_disqus_name: "shamsclinic-1",
   menuLinks: [
     {
