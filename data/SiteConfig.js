@@ -11,7 +11,7 @@ const config = {
   siteDescription:
     "هنا يمكنك الاطلاع على ادق المعلومات الطبية, احدث بروتوكولات العلاج وكذلك اهم النصائح التى تقدمها عيادة د/شمس لتتمتع بصحة أفضل. شفاكم الله وعافاكم",
   siteRss: "/rss.xml",
-  googleAnalyticsID: "UA-135262164-5",
+  googleAnalyticsID: "UA-170267410-1",
   postDefaultCategoryID: "طب",
   userName: "شمس",
   userEmail: "shamsmohamed155@gmail.com",
