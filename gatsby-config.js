@@ -17,6 +17,7 @@ module.exports = {
     },
   },
   plugins: [
+    `@pauliescanlon/gatsby-mdx-embed`,
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-twitter",
