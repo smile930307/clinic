@@ -65,6 +65,7 @@ export default class PostTemplate extends Component {
           <title>{`${post.title} – ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
+
         <article className="single container">
           <header
             className={`single-header ${!thumbnail ? "no-thumbnail" : ""}`}
@@ -90,7 +91,6 @@ export default class PostTemplate extends Component {
               <PostTags tags={post.tags} />
             </div>
           </header>
-
           {/* <div
             className="post"
             dangerouslySetInnerHTML={{ __html: postNode.html }}

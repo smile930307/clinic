@@ -1,7 +1,7 @@
 const config = {
-  siteTitle: "د/شمس",
-  siteTitleShort: "د/شمس",
-  siteTitleAlt: "د/شمس",
+  siteTitle: "دكتور شمس",
+  siteTitleShort: "دكتور شمس",
+  siteTitleAlt: "دكتور شمس",
   siteLogo: "/logos/logo-shamsclinic.png",
   siteUrl: "https://www.shamsclinics.com/",
   repo: "https://github.com/mshams999/mobirena-gatsby",
@@ -9,7 +9,7 @@ const config = {
   dateFromFormat: "YYYY-MM-DD",
   dateFormat: "MMMM Do, YYYY",
   siteDescription:
-    "هنا يمكنك الاطلاع على ادق المعلومات الطبية, احدث بروتوكولات العلاج وكذلك اهم النصائح التى تقدمها عيادة د/شمس لتتمتع بصحة أفضل. شفاكم الله وعافاكم",
+    "هنا يمكنك الاطلاع على ادق المعلومات الطبية, احدث بروتوكولات العلاج وكذلك اهم النصائح التى تقدمها عيادة دكتور شمس لتتمتع بصحة أفضل. شفاكم الله وعافاكم",
   siteRss: "/rss.xml",
   googleAnalyticsID: "UA-170267410-1",
   postDefaultCategoryID: "طب",

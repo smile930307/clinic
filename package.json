@@ -8,6 +8,7 @@
     "@material-ui/core": "^4.9.14",
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
+    "@mdx-js/tag": "^0.20.3",
     "@pauliescanlon/gatsby-mdx-embed": "0.0.21",
     "acorn": "^7.2.0",
     "disqus-react": "^1.0.7",
@@ -21,6 +22,7 @@
     "gatsby-plugin-manifest": "^2.4.2",
     "gatsby-plugin-mdx": "^1.0.61",
     "gatsby-plugin-netlify": "^2.1.26",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
     "gatsby-plugin-nprogress": "^2.1.14",
     "gatsby-plugin-offline": "^3.0.23",
     "gatsby-plugin-react-helmet": "3.1.15",
@@ -40,6 +42,7 @@
     "gatsby-transformer-sharp": "^2.3.5",
     "lodash": "^4.17.15",
     "lodash.kebabcase": "^4.1.1",
+    "mdx.macro": "^0.2.9",
     "moment": "^2.24.0",
     "node-sass": "^4.13.0",
     "prismjs": "^1.17.1",
@@ -72,7 +75,7 @@
     "write-good": "^1.0.2"
   },
   "keywords": [
-    "د/شمس",
+    "دكتور شمس",
     "medicine",
     "طب",
     "صحة",
@@ -80,7 +83,7 @@
     "articles",
     "blog",
     "مدونة",
-    "عيادة"
+    "عيادة دكتور شمس"
   ],
   "license": "MIT",
   "main": "n/a",

@@ -9,7 +9,7 @@ template: page
 يمكنكم الاتصال بنا بواسطة إحدى الطرق التالية:
 
 - **بريدنا الإلكتروني**: [shamsmohamed155@gmail.com](mailto:shamsmohamed155@gmail.com)
-- **قناتنا على يوتيوب**: [د/شمس](https://www.youtube.com/channel/UCikX-7rcNKEIo6oaqSGcvYg?view_as=subscribe)
-- **حسابنا على فيسبوك**: [د/شمس](https://www.facebook.com/shamsclinicss/)
-- **حسابنا على تويتر**: [د/شمس](https://twitter.com/shams_clinicss)
-- **حسابنا على بنتريست**: [د/شمس](https://www.pinterest.com/dr_shamsclinic/boards/)
+- **قناتنا على يوتيوب**: [دكتور شمس](https://www.youtube.com/channel/UCikX-7rcNKEIo6oaqSGcvYg?view_as=subscribe)
+- **حسابنا على فيسبوك**: [دكتور شمس](https://www.facebook.com/shamsclinicss/)
+- **حسابنا على تويتر**: [دكتور شمس](https://twitter.com/shams_clinicss)
+- **حسابنا على بنتريست**: [دكتور شمس](https://www.pinterest.com/dr_shamsclinic/boards/)

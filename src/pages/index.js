@@ -47,61 +47,68 @@ export default class Index extends Component {
                 <div>
                   <a
                     href="https://www.facebook.com/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9-%D8%AF%D8%B4%D9%85%D8%B3-100330938395339/"
-                    title="حساب د/شمس على فيسبوك"
+                    title="حساب دكتور شمس على فيسبوك"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={facebookIcon} alt="حساب د/شمس على فيسبوك" />
+                    <img src={facebookIcon} alt="حساب دكتور شمس على فيسبوك" />
                   </a>
                 </div>
 
                 <div>
                   <a
                     href="https://twitter.com/clinics_shams"
-                    title="حساب د/شمس على تويتر"
+                    title="حساب دكتور شمس على تويتر"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={twitterIcon} alt="حساب د/شمس على تويتر" />
+                    <img src={twitterIcon} alt="حساب دكتور شمس على تويتر" />
                   </a>
                 </div>
 
                 <div>
                   <a
                     href="https://www.youtube.com/channel/UCikX-7rcNKEIo6oaqSGcvYg?view_as=subscriber"
-                    title="حساب د/شمس على يوتيوب"
+                    title="حساب دكتور شمس على يوتيوب"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={youtubeIcon} alt="حساب د/شمس على يوتيوب" />
+                    <img src={youtubeIcon} alt="حساب دكتور شمس على يوتيوب" />
                   </a>
                 </div>
 
                 <div>
                   <a
                     href="https://www.pinterest.com/dr_shamsclinic/boards/"
-                    title="حساب د/شمس على pinterest"
+                    title="حساب دكتور شمس على pinterest"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={pinterestIcon} alt="حساب د/شمس على pinterest" />
+                    <img
+                      src={pinterestIcon}
+                      alt="حساب دكتور شمس على pinterest"
+                    />
                   </a>
                 </div>
 
                 <div>
                   <a
                     href="mailto:shamsmohamed155@gmail.com"
-                    title="ايميل د/شمس على gmail"
+                    title="ايميل دكتور شمس على gmail"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={mailtoIcon} alt="ايميل د/شمس على gmail" />
+                    <img src={mailtoIcon} alt="ايميل دكتور شمس على gmail" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="newsletter-section">
-              <img src={emailList} className="newsletter-avatar" alt="د/شمس" />
+              <img
+                src={emailList}
+                className="newsletter-avatar"
+                alt="دكتور شمس"
+              />
               <div>
                 <h3>اتصل بالجديد دائما</h3>
                 <p>

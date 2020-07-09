@@ -128,7 +128,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "د/شمس";
+          ret.generator = "دكتور شمس";
           return ret;
         },
         query: `

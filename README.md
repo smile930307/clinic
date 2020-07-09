@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://shamsclinic.netlify.app">
-    <img alt="عيادة د/شمس" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="عيادة دكتور شمس" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  الاصدار الاول لتطبيق عيادة د/شمس
+  الاصدار الاول لتطبيق عيادة دكتور شمس
 </h1>
 
 <h3 align="center">
@@ -67,4 +67,4 @@ Licensed under the [MIT License](./LICENSE).
 
 ## 💜 شكرا
 
-Thanks to our many contributors and to [Netlify](https://www.netlify.com/) for hosting [د/شمس](https://shamsclinic.netlify.app).
+Thanks to our many contributors and to [Netlify](https://www.netlify.com/) for hosting [دكتور شمس](https://shamsclinic.netlify.app).
