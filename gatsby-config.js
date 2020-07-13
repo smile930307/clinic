@@ -195,7 +195,7 @@ module.exports = {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint:
-          "https://app.us18.list-manage.com/subscribe/post?u=77a88ee4219d3e4aefbd76235&amp;id=4c82463a20", // add your MC list endpoint here; see instructions below
+          "https://shamsclinics.us10.list-manage.com/subscribe/post?u=6012e8d377c0e2af793a20828&amp;id=107d1d1fc0", // add your MC list endpoint here; see instructions below
       },
     },
   ],
