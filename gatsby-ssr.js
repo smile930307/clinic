@@ -1,7 +1,11 @@
 const React = require("react");
 
-exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
+exports.onRenderBody = ({ setPostBodyComponents }) => {
   return setPostBodyComponents([
+    <script
+      type="text/javascript"
+      src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f0f637bbfcd560c"
+    />,
     <script
       SameSite="None; Secure"
       src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"
