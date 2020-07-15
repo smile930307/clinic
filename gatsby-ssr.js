@@ -5,9 +5,8 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
     <script
       SameSite="None; Secure"
       src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"
-      async="true"
-    ></script>,
-
+      async=""
+    />,
     <script
       dangerouslySetInnerHTML={{
         __html: `
@@ -31,6 +30,18 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
               },
             });
           });
+            `,
+      }}
+    />,
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+        (function(d, t) {
+            let g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+            g.src = "https://cdn.pushalert.co/integrate_ae2cecdafcb256f797fbbb016a6896be.js";
+            s.parentNode.insertBefore(g, s);
+        }(document, "script"));
             `,
       }}
     />,
