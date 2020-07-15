@@ -5,7 +5,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
     <script
       SameSite="None; Secure"
       src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"
-      async="true"
+      async=""
     ></script>,
 
     <script
