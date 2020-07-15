@@ -33,15 +33,8 @@ export default class MainLayout extends Component {
           <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
         <Navigation menuLinks={config.menuLinks} />
-        <main id="main-content">
-          {children}
-          <div>
-            <MessengerCustomerChat
-              pageId="100330938395339"
-              appId="1783693495105633"
-            />
-          </div>
-        </main>
+        <main id="main-content">{children}</main>
+
         <Footer />
       </>
     );

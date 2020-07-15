@@ -1,8 +1,8 @@
-import React from 'react';
-import { ThemeProvider } from './src/context/ThemeContext';
+import React from "react";
+import { ThemeProvider } from "./src/context/ThemeContext";
 
-import { MDXProvider } from '@mdx-js/react';
-import { NewsletterForm, Author } from './src/shortcodes';
+import { MDXProvider } from "@mdx-js/react";
+import { NewsletterForm, Author } from "./src/shortcodes";
 
 const shortcodes = { NewsletterForm, Author };
 
