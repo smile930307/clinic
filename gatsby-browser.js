@@ -1,5 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "./src/context/ThemeContext";
+import "firebase/database";
 
 import { MDXProvider } from "@mdx-js/react";
 import { NewsletterForm, Author } from "./src/shortcodes";

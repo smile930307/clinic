@@ -1,6 +1,8 @@
 const urljoin = require("url-join");
 const config = require("./data/SiteConfig");
-
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 module.exports = {
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
@@ -32,6 +34,20 @@ module.exports = {
           "/*.js": ["cache-control: public, max-age=31536000, immutable"],
           "/*.css": ["cache-control: public, max-age=31536000, immutable"],
           "/sw.js": ["cache-control: public, max-age=0, must-revalidate"],
+        },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-firebase",
+      options: {
+        credentials: {
+          apiKey: process.env.API_KEY,
+          authDomain: process.env.AUTH_DOMAIN,
+          databaseURL: process.env.DATABASE_URL,
+          projectId: process.env.PROJECT_ID,
+          storageBucket: process.env.STORAGE_BUCKET,
+          messagingSenderId: process.env.MESSAGING_SENDER_ID,
+          appId: process.env.APP_ID,
         },
       },
     },

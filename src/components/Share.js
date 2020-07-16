@@ -6,6 +6,7 @@ import {
   TwitterShareButton,
   FacebookShareCount,
 } from "react-share";
+import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import "../styles/components/Share.scss";
 
@@ -15,24 +16,25 @@ const Share = ({ socialConfig, tags }) => (
       url={socialConfig.config.url}
       className="socialButton is-outlined is-rounded facebook"
     >
-      <span className="icon">
-        <FontAwesomeIcon icon={["fab", "facebook-f"]} />
+      <FacebookShareCount url={socialConfig.config.url}>
+        {(shareCount) => (
+          <span className="myShareCountWrapper">المشاركات {shareCount}</span>
+        )}
+      </FacebookShareCount>
+      <span className="icon paddingSocial">
+        <FontAwesomeIcon icon={faFacebook} />
       </span>
       <span className="text">Facebook</span>
     </FacebookShareButton>
-    <FacebookShareCount url={socialConfig.config.url}>
-      {(shareCount) => (
-        <span className="myShareCountWrapper">{shareCount}</span>
-      )}
-    </FacebookShareCount>
+
     <TwitterShareButton
       url={socialConfig.config.url}
       className="socialButton is-outlined is-rounded twitter"
       title={socialConfig.config.title}
       hashtags={tags}
     >
-      <span className="icon">
-        <FontAwesomeIcon icon={["fab", "twitter"]} />
+      <span className="icon paddingSocial">
+        <FontAwesomeIcon icon={faTwitter} />
       </span>
       <span className="text">Twitter</span>
     </TwitterShareButton>
