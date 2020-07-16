@@ -1,4 +1,3 @@
-import "firebase/database";
 import React from "react";
 import { ThemeProvider } from "./src/context/ThemeContext";
 
