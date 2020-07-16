@@ -16,6 +16,7 @@
     "@pauliescanlon/gatsby-mdx-embed": "0.0.21",
     "acorn": "^7.2.0",
     "disqus-react": "^1.0.7",
+    "dotenv": "^8.2.0",
     "eslint-utils": "^1.4.3",
     "firebase": "^7.16.0",
     "gatsby": "^2.18.3",
