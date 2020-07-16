@@ -5,12 +5,13 @@ import Img from "gatsby-image";
 
 import { DiscussionEmbed } from "disqus-react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import Share from "../components/Share";
 
 import Layout from "../layout";
 import UserInfo from "../components/UserInfo";
 import PostTags from "../components/PostTags";
 import SEO from "../components/SEO";
-import config from "../../data/SiteConfig";
+import config, { siteUrl } from "../../data/SiteConfig";
 import { formatDate, editOnGithub } from "../utils/global";
 import { NewsletterForm } from "../shortcodes";
 
@@ -99,6 +100,19 @@ export default class PostTemplate extends Component {
         </article>
 
         <div className="container">
+          <h3>شارك المقالة وساعد فى النشر :</h3>
+          <Share
+            socialConfig={{
+              config: {
+                url: `${siteUrl}${slug}`,
+                title: post.title,
+              },
+            }}
+            tags={post.tags}
+          />
+        </div>
+
+        <div className="container">
           <h3>موضوعات ذات صلة :</h3>
           <SimilarArticles
             category={post.categories[0]}
@@ -125,6 +139,15 @@ export default class PostTemplate extends Component {
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
+    site {
+      siteMetadata {
+        title
+        siteUrl
+        social {
+          twitter
+        }
+      }
+    }
     mdx(fields: { slug: { eq: $slug } }) {
       body
       timeToRead

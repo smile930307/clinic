@@ -4,7 +4,11 @@ const config = require("./data/SiteConfig");
 module.exports = {
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
+    title: config.siteTitle,
     siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+    social: {
+      twitter: ``,
+    },
     rssMetadata: {
       site_url: urljoin(config.siteUrl, config.pathPrefix),
       feed_url: urljoin(config.siteUrl, config.pathPrefix, config.siteRss),
