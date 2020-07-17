@@ -114,5 +114,12 @@
     "plugins": [
       "remark-preset-lint-recommended"
     ]
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react-typescript@3.1.55"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }
