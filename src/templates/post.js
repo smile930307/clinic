@@ -90,7 +90,7 @@ export default class PostTemplate extends Component {
                   تحرير ✏️
                 </a>
               </div>
-              <div>
+              <div className="views">
                 <ViewCounter id={post.title} />
               </div>
 
