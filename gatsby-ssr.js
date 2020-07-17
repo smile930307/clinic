@@ -1,5 +1,3 @@
-import "firebase/database";
-
 const React = require("react");
 
 exports.onRenderBody = ({ setPostBodyComponents }) => {
