@@ -5,6 +5,7 @@ import Img from "gatsby-image";
 
 import { DiscussionEmbed } from "disqus-react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import ViewCounter from "../components/ViewCounter";
 import Share from "../components/Share";
 
 import Layout from "../layout";
@@ -88,6 +89,9 @@ export default class PostTemplate extends Component {
                 >
                   تحرير ✏️
                 </a>
+              </div>
+              <div>
+                <ViewCounter id={post.title} />
               </div>
 
               <PostTags tags={post.tags} />
