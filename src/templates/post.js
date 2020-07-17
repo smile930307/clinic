@@ -90,6 +90,13 @@ export default class PostTemplate extends Component {
                 </a>
               </div>
 
+              <div>
+                <img
+                  src="https://views.show/svg?key=shamsclinics.com"
+                  alt="views"
+                />
+              </div>
+
               <PostTags tags={post.tags} />
             </div>
           </header>
