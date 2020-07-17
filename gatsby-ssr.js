@@ -1,4 +1,4 @@
-require("firebase/database");
+import "firebase/database";
 
 const React = require("react");
 
