@@ -27,14 +27,13 @@ img {
   border-radius: 15px;
 }
 /* edits for views */
-.views,
-.readingTime {
+.structure {
   width: 50%;
   text-align: center;
   border-radius: 15px;
   margin: 1rem 0;
   font-weight: bold;
-  padding: 3px;
+  padding: 0.25rem 0.75rem;
   div {
     color: white !important;
   }
@@ -46,6 +45,14 @@ img {
 .readingTime {
   background: #d4f8dc;
   color: #196f23 !important;
+}
+.dateOfReading {
+  background: #e3fafc;
+  color: #0c8599 !important;
+}
+.githubEditing {
+  background: #fff3bf;
+  color: #000 !important;
 }
 p,
 ol,

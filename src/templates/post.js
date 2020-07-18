@@ -73,16 +73,19 @@ export default class PostTemplate extends Component {
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
-                <time className="date">تم النشر فى {date}</time>/
+                <time className="date structure dateOfReading">
+                  تم النشر فى {date}
+                </time>
+                /
                 <a
-                  className="github-link"
+                  className="github-link structure githubEditing"
                   href={githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   تحرير ✏️
                 </a>
-                <div className="readingTime">
+                <div className="structure readingTime">
                   وقت القراءة : {Math.round(readingTime)} دقيقة
                 </div>
                 <div className="views">

@@ -583,14 +583,13 @@ h2.publication-company {
 
 .tag-container {
   span {
-    display: inline-block;
-    padding: 0.3rem 0.5rem;
-    background: $light;
-    border-radius: $border-radius;
-    color: lighten($font-color, 10%);
-    font-size: 0.8rem;
-    font-weight: 400;
-    margin: 0 0.5rem 0.5rem 0;
+    text-align: center;
+    border-radius: 15px;
+    margin: 1rem 0.5rem;
+    font-weight: bold;
+    padding: 3px 5px;
+    background: #ddd;
+    color: #000 !important;
 
     .count {
       color: $secondary-color;
@@ -604,6 +603,9 @@ h2.publication-company {
       background: darken($light, 5%);
       color: $font-color;
     }
+    &:first-of-type {
+      margin-right: 0;
+    }
   }
 
   &.articles-page-tags {
@@ -615,7 +617,6 @@ h2.publication-company {
   .tag-container {
     span {
       font-size: 0.9rem;
-      font-weight: 500;
       padding: 0.3rem 0.8rem;
 
       .count {
@@ -643,6 +644,7 @@ h2.publication-company {
   font-size: 1rem;
   color: $light-font-color;
   display: inline-block;
+  margin-top: 1rem;
 
   .date {
     margin-left: 0.5rem;
