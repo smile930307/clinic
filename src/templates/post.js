@@ -54,12 +54,9 @@ export default class PostTemplate extends Component {
     if (post.thumbnail) {
       thumbnail = post.thumbnail.childImageSharp.fixed;
     }
-
+    const readingTime = postNode.fields.readingTime.minutes;
     const date = formatDate(post.date);
     const githubLink = editOnGithub(post);
-    const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(
-      post.title
-    )}&url=${config.siteUrl}/${post.slug}/&via=clinics_shams`;
 
     return (
       <Layout>
@@ -76,11 +73,7 @@ export default class PostTemplate extends Component {
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
-                <time className="date">{date}</time>/
-                <a className="twitter-link" href={twitterShare}>
-                  شارك على تويتر
-                </a>
-                /
+                <time className="date">تم النشر فى {date}</time>/
                 <a
                   className="github-link"
                   href={githubLink}
@@ -89,9 +82,12 @@ export default class PostTemplate extends Component {
                 >
                   تحرير ✏️
                 </a>
-              </div>
-              <div className="views">
-                <ViewCounter id={post.title} />
+                <div className="readingTime">
+                  وقت القراءة : {Math.round(readingTime)} دقيقة
+                </div>
+                <div className="views">
+                  <ViewCounter id={post.title} />
+                </div>
               </div>
 
               <PostTags tags={post.tags} />
@@ -175,6 +171,9 @@ export const pageQuery = graphql`
       fields {
         slug
         date
+        readingTime {
+          minutes
+        }
       }
     }
   }

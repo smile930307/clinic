@@ -7,7 +7,7 @@ const config = {
   repo: "https://github.com/mshams999/mobirena-gatsby",
   pathPrefix: "",
   dateFromFormat: "YYYY-MM-DD",
-  dateFormat: "MMMM Do, YYYY",
+  dateFormat: "Do MMMM YYYY",
   siteDescription:
     "هنا يمكنك الاطلاع على ادق المعلومات الطبية, احدث بروتوكولات العلاج وكذلك اهم النصائح التى تقدمها عيادة دكتور شمس لتتمتع بصحة أفضل. شفاكم الله وعافاكم",
   siteRss: "/rss.xml",

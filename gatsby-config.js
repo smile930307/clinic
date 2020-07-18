@@ -25,7 +25,6 @@ module.exports = {
     `@pauliescanlon/gatsby-mdx-embed`,
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-twitter",
     {
       resolve: `gatsby-plugin-netlify`,
       options: {
@@ -59,7 +58,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-images`],
+        plugins: [`gatsby-remark-images`, `gatsby-remark-reading-time`],
         // I use this twice because it seems like it does'nt work well with gatsby-plugin-mdx.
       },
     },

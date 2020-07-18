@@ -27,17 +27,25 @@ img {
   border-radius: 15px;
 }
 /* edits for views */
-.views {
-  background: #3f80ff;
-  width: 20%;
+.views,
+.readingTime {
+  width: 50%;
   text-align: center;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin: 1rem 0;
+  font-weight: bold;
   padding: 3px;
-  color: white !important;
   div {
     color: white !important;
   }
+}
+.views {
+  color: white !important;
+  background: #3f80ff;
+}
+.readingTime {
+  background: #d4f8dc;
+  color: #196f23 !important;
 }
 p,
 ol,
