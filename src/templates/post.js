@@ -88,7 +88,7 @@ export default class PostTemplate extends Component {
                 <div className="structure readingTime">
                   وقت القراءة : {Math.round(readingTime)} دقيقة
                 </div>
-                <div className="views">
+                <div className="structure views">
                   <ViewCounter id={post.title} />
                 </div>
               </div>
