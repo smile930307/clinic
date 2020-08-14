@@ -1,3 +1,5 @@
+
+/*
 const React = require("react");
 
 exports.onRenderBody = ({ setPostBodyComponents }) => {
@@ -47,3 +49,4 @@ exports.onRenderBody = ({ setPostBodyComponents }) => {
     />,
   ]);
 };
+*/
