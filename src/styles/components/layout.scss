@@ -12,6 +12,11 @@
   }
 }
 
+.landingPage-image img {
+  width: 100%;
+  max-width: 100%;
+}
+
 .container {
   max-width: $width;
   padding: 0 1.5rem;
