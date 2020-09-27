@@ -50,9 +50,7 @@ export default class Index extends Component {
                     الا ان قائمة الايميلات - newsletter - اجمل
                   </p>
 
-                  <div className="container">
-                    <NewsletterForm />
-                  </div>
+                  <NewsletterForm />
                 </div>
               </div>
 
@@ -68,9 +66,9 @@ export default class Index extends Component {
         <div className="container front-page">
           <section className="section">
             <h2>
-              احدث التدوينات
+              احدث المقالات
               <Link to="/blog" className="view-all">
-                شاهد الكل
+                شاهدى الكل
               </Link>
             </h2>
             <PostListing simple postEdges={latestPostEdges} />
@@ -78,9 +76,9 @@ export default class Index extends Component {
 
           <section className="section">
             <h2>
-              التدوينات الأكثر شعبية
+              المقالات الأكثر شعبية
               <Link to="/categories/popular" className="view-all">
-                شاهد الكل
+                شاهدى الكل
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />

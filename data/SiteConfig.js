@@ -19,7 +19,7 @@ const config = {
   gatsby_disqus_name: "shamsclinic-1",
   menuLinks: [
     {
-      name: "اهم التدوينات",
+      name: "اهم المقالات",
       link: "/blog/",
     },
     {
@@ -27,7 +27,7 @@ const config = {
       link: "/about-us/",
     },
     {
-      name: "اتصل بنا",
+      name: "اتصلى بنا",
       link: "/contact/",
     },
   ],

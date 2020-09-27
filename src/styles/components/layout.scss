@@ -10,13 +10,20 @@
     padding: 40px 0 0;
     min-height: calc(100vh - 219px);
   }
+  .landingPage-image {
+    margin-top: 20px;
+  }
 }
-
+/* my edits */
 .landingPage-image img {
   width: 100%;
   max-width: 100%;
 }
-
+@media (max-width: 720px) {
+  .landingPage-image {
+    margin-top: 20px;
+  }
+}
 .container {
   max-width: $width;
   padding: 0 1.5rem;

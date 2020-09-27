@@ -67,10 +67,10 @@ export default class BlogPage extends Component {
 
     return (
       <Layout>
-        <Helmet title={`اهم التدوينات – ${config.siteTitle}`} />
+        <Helmet title={`التصنيفات – ${config.siteTitle}`} />
         <SEO />
         <div className="container">
-          <h1>اهم التدوينات</h1>
+          <h1>التصنيفات</h1>
           <div className="category-container">
             {categories.map((category) => {
               const active = currentCategories.includes(category.fieldValue);
@@ -95,7 +95,7 @@ export default class BlogPage extends Component {
               type="text"
               name="searchTerm"
               value={searchTerm}
-              placeholder="عن ماذا تبحث ؟"
+              placeholder="ابحثى عن اى مقالة هنا ..."
               onChange={this.handleChange}
             />
             <div className="filter-count">{filterCount}</div>
