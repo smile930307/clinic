@@ -31,6 +31,13 @@
   margin-right: auto;
 }
 
+.blog-container {
+  max-width: $blogWidth;
+  padding: 0 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @include small-breakpoint {
   .container {
     padding: 0 2rem;
