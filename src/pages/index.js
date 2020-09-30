@@ -56,7 +56,7 @@ export default class Index extends Component {
 
               <div class="col-md-4">
                 <div className="landingPage-image">
-                  <img src={shams} alt="د/ محمد شمس" />
+                  <img src={shams} alt="دكتور شمس" />
                 </div>
               </div>
             </div>

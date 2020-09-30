@@ -137,9 +137,12 @@ $dark-border: darken($background, 3%);
   h1,
   h2,
   h3,
-  h4,
   h5 {
     color: #cecece;
+  }
+
+  h4 {
+    color: black;
   }
 
   .posts {
@@ -216,7 +219,7 @@ $dark-border: darken($background, 3%);
       &:active,
       &:focus {
         border: none;
-        background: #111;
+        background: #fff;
         color: white;
       }
     }
@@ -419,7 +422,7 @@ $dark-border: darken($background, 3%);
       }
 
       &:hover {
-        background: #111;
+        background: #fadcdf;
         color: darken($primary-color, 10%);
       }
     }

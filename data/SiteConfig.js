@@ -9,7 +9,7 @@ const config = {
   dateFromFormat: "YYYY-MM-DD",
   dateFormat: "Do MMMM YYYY",
   siteDescription:
-    "هنا يمكنك الاطلاع على ادق المعلومات الطبية, احدث بروتوكولات العلاج وكذلك اهم النصائح التى تقدمها عيادة دكتور شمس لتتمتع بصحة أفضل. شفاكم الله وعافاكم",
+    "ادق المعلومات الطبية فى مجال النساوالتوليد وصحة المراة مقدمة لك سيدتى مباشرة من دكتور شمس",
   siteRss: "/rss.xml",
   googleAnalyticsID: "UA-170267410-1",
   postDefaultCategoryID: "طب",
@@ -23,7 +23,7 @@ const config = {
       link: "/blog/",
     },
     {
-      name: "عن د/شمس",
+      name: "عن دكتور شمس",
       link: "/about-us/",
     },
     {

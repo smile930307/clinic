@@ -8,10 +8,10 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <div className="flex-avatar">
-              <img className="avatar" src={shams} alt="د/ محمد شمس" />
+              <img className="avatar" src={shams} alt="دكتور شمس" />
             </div>
             <div>
-              <h3 style={{ marginBottom: "1.2rem" }}>د/ محمد شمس</h3>
+              <h3 style={{ marginBottom: "1.2rem" }}>دكتور شمس</h3>
               <div>
                 <ul>
                   <li> كلية الطب جامعة الاسكندرية </li>
