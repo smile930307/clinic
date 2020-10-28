@@ -9,7 +9,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
 import { NewsletterForm } from "../shortcodes";
-import shams from "../../content/images/shams.jpg";
+import shams from "../../content/images/shams1.jpg";
 
 /* import ProjectListing from '../components/ProjectListing'; */
 /* import SimpleListing from '../components/SimpleListing'; */
